@@ -32,7 +32,7 @@ var verificar = function() {
         alert("La contraseña debe contener al menos 4 digitos");
         return false;
     }
-    window.location = "paginaPrincipal.html";
+    window.open("paginaPrincipal.html", `_self`);
 };
 
 document.getElementById("ingresar").addEventListener("click", verificar);
