@@ -1,0 +1,146 @@
+:root {
+    --color--primary: rgb(255,211,2);
+    --color--secundary: rgb(219,62,81);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+footer {
+    height: 100px;
+    background-color: var(--color--secundary);
+    display: flex;
+    justify-content: space-between;
+}
+.nav {
+    height: 60px;
+    width: 100vw;
+    background-color: var(--color--primary);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+}
+
+.boton {
+    background-color: var(--color--secundary);
+    border-style: none;
+    width: 100px;
+    border-radius: 15px;
+    color: whitesmoke;
+}
+
+.pagina-principal {
+    
+    height: calc(100vh - 60px - 100px);
+    padding: 30px 40px;
+}
+
+.tarjetas {
+    margin-top: 30px;
+    border-radius: 15px;
+    background-color: #FCF3CF;
+    height: 60vh;
+    padding: 60px 30px 0 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    background-color: #EBEDEF;
+    height: 160px;
+    width: 30%;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;  
+    border-left: 5px solid var(--color--secundary);
+}
+
+.descuento {
+    width: 40%;
+    padding: 40px 25px;
+    font-size: 22px;
+}
+.informacion > p:last-child {
+    margin: 10px 0;
+}
+
+.informacion {
+    width: 60%;
+    padding: 10px 20px;
+    border-left: 1px solid black;
+}
+
+.nombre {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.tarjeta-credito > i {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.foto-footer {
+    width: 500px;
+}
+
+.menu {
+    margin: 40px;
+}
+
+.menu__item {
+    margin-left: 15px;
+}
+
+@media (max-width: 576px) {
+    .nav {
+        padding: 15px 10px;
+    }
+
+    .pagina-principal {
+        padding: 15px 10px 0 10px;
+        height: 1040px;
+    }
+    .tarjetas {
+        margin: 10px 0;
+        padding: 0px;
+        height: 970px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+
+    }
+    .tarjeta {
+        height: 150px;
+        width: 95%;
+        margin-top: 10px;
+    }
+    .nombre {
+        font-size: 15px;
+        font-weight: 900;
+    }
+    .informacion {
+        font-size: 13px;
+    }
+    .foto-footer {
+        display: none;
+    }
+
+    footer {
+        height: 50px;
+    }
+    .menu {
+        margin: 15px 10px;
+    }
+    
+}
