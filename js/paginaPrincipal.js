@@ -7,7 +7,7 @@ titulo.textContent = `¡Bienvenido ${nombre}!`;
 var inicio = document.querySelector(".inicio")
 
 inicio.addEventListener("click", function() {
-    window.open('login.html', `_self`);
+    window.open('index.html', `_self`);
 })
 
 var vacunate = document.querySelector(".vacunate")
@@ -19,7 +19,7 @@ vacunate.addEventListener("click", function(){
 var boton = document.querySelector(".boton") 
 
 boton.addEventListener("click", function(){
-    window.open(`../login.html`, `_self`);
+    window.open(`index.html`, `_self`);
 })
 
 var tarjetas = document.querySelectorAll(".tarjeta")
