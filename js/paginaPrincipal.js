@@ -1,8 +1,12 @@
 var nombre = prompt("!Hola! ¿Podria indicarme su nombre?");
 
+function transformar(palabra) {
+    return palabra[0].toUpperCase() + palabra.slice(1);
+  }
+
 var titulo = document.querySelector(".titulo");
 
-titulo.textContent = `¡Bienvenido ${nombre}!`;
+titulo.textContent = `¡Bienvenido ${transformar(nombre)}!`;
 
 var inicio = document.querySelector(".inicio")
 

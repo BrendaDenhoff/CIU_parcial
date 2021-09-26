@@ -15,11 +15,10 @@ var cambiarImagen = function(){
 setInterval(cambiarImagen,2750);
 
 var verificar = function() {
-    var nombre = document.getElementById("nombre").value;
     var dni = document.getElementById("dni").value;
     var contrasenia = document.getElementById("contrasenia").value;
 
-    if(nombre === "" || dni === "" || contrasenia === "") {
+    if(dni === "" || contrasenia === "") {
         alert("Todos los campos son obligatorios");
         return false;
     } else if (isNaN(dni)) {
