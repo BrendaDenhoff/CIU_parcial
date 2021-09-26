@@ -28,7 +28,7 @@ var verificar = function() {
         alert("El DNI debe contener ocho digitos");
         return false;
     } else if(contrasenia.length < 4) {
-        alert("La contraseña debe contener al menos 4 digitos");
+        alert("La contraseña debe contener al menos cuatro caracteres");
         return false;
     }
     window.open("paginaPrincipal.html", `_self`);

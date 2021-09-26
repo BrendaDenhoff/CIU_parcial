@@ -17,7 +17,7 @@ inicio.addEventListener("click", function() {
 var vacunate = document.querySelector(".vacunate")
 
 vacunate.addEventListener("click", function(){
-    window.open(`https://www.buenosaires.gob.ar/coronavirus/vacunacion-covid-19/poblacion-general`); //, `_blank`
+    window.open(`https://www.buenosaires.gob.ar/coronavirus/vacunacion-covid-19/poblacion-general`); 
 })
 
 var boton = document.querySelector(".boton") 
