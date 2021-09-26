@@ -187,3 +187,20 @@ footer {
     }
     
 }
+
+@media (max-height: 900px) {
+    .pagina-principal {
+        height: calc(100vh - 160px);
+    }
+
+    .tarjeta {
+        font-size: 13px;
+        height: 160px;
+        margin-bottom: 0;
+    }
+
+    .tarjetas {
+        padding: 10px;
+        height: 550px;
+    }
+}
