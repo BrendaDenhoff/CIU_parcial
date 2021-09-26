@@ -190,7 +190,7 @@ footer {
 
 @media (max-height: 900px) {
     .pagina-principal {
-        height: calc(100vh - 160px);
+        height: 700px
     }
 
     .tarjeta {
